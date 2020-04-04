@@ -1,0 +1,52 @@
+@import url(./__link/header__link.css);
+@import url(./__subtitle/header__subtitle.css);
+@import url(./__title/header__title.css);
+@import url(./__main-ilustration/header__main-ilustration.css);
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    background-color: #F2F2F2;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    z-index: 1;
+}
+
+.logo-place-header {
+    height: 31px;
+    width: 154px;
+    left: 64px;
+    top: 30px ;
+}
+
+
+
+.rotation {
+    animation: rotation 20s infinite linear;
+    border: 1px solid red;
+}
+
+.rotation__square-pic {
+    position: absolute;
+    right: 0;
+    top: 64px;
+    background-color: #2F80ED;
+    height: 568px;
+    width: 568px;
+    transform: rotate(-45deg);
+}

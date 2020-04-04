@@ -1,0 +1,12 @@
+.video__iframe {
+   border: 1px solid red;
+   margin-top: 50px;
+   width: 515px;
+   height: 316px;
+   display: inline-block;
+
+}
+
+.video__iframe:nth-last-child(1) {
+    margin-left: 20px;
+}

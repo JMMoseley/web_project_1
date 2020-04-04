@@ -1,0 +1,16 @@
+@import url(/blocks/footer/__columns/footer__columns.css);
+@import url(/blocks/footer/__social-icon/footer__social-icon.css);
+@import url(/blocks/footer/__column-links/footer__column-links.css);
+@import url(/blocks/footer/__author/footer__author.css);
+@import url(/blocks/footer/__column-heading/footer__column-heading.css);
+
+.footer {
+    min-height: 350px;
+    display: flex;
+    background-color: #1F1F1F;
+}
+
+ .logo-place-footer {
+    width: 183px;
+    height: 35px;
+}
