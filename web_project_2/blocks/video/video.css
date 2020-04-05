@@ -2,6 +2,6 @@
 @import url(/blocks/section-subtitle/section-subtitle.css);
 @import url(/blocks/video/__iframe/video__iframe.css);
 
-.video{
-    border: 1px solid red;  
+.video {
+    padding-top: 100px;
 }

@@ -8,4 +8,9 @@
     font-weight: normal;
     text-decoration: none;
     color: black;
+    transition: color 0.5s ease-in-out;
+}
+
+.feynman__link:hover {
+    color: #2F80ED;
 }

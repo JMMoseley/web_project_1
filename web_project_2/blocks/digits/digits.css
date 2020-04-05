@@ -2,8 +2,7 @@
 @import url(./blocks/section-title/section-title.css);
 @import url(./blocks/section-subtitle/section-subtitle.css);
 
-
-.digits{
+.digits {
     display: flex;
     flex-direction: column;
     padding-top: 100px;
